@@ -1,0 +1,120 @@
+body {
+  background-color: pink;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  margin: 2px;
+  padding-bottom: 10px;
+  text-align:center;
+  font-size: 75px;
+}
+
+p{
+  margin: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+  padding-top: 1px;
+  padding-bottom: auto;
+}
+
+
+.menu-overskrift {
+  color: black;
+}
+
+.center {
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-banner{
+  display: none;
+}
+
+.img-info{
+  width: 100%;
+}
+
+.img-info header{
+  padding: 30px 30px 10px
+  font-family: Arial;
+  font-size: 80px;
+  text-align: center;
+}
+
+.slider {
+  width: 800px;
+  height: 500px;
+  background: url(grouppic1.jpg);
+  margin: 30px auto;
+  animation: slide 20s infinite;
+}
+
+.main{
+  padding-top: 1px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.Video{
+  width: 900px;
+  height: 535px;
+  padding-bottom: 10px;
+}
+ul{
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+ul li {
+  display: inline;
+  padding-right: 7px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+}
+
+@media only screen and (min-width: 768px){
+  .img-banner{
+    display: block;
+    width:100%;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+}
+
+@keyframes slide {
+  20%{
+    background: url(Pictures/grouppic1.jpg);
+  }
+  40%{
+    background: url(Pictures/grouppic2.jpg);
+  }
+  60%{
+    background: url(Pictures/grouppic3.jpg);
+  }
+  80%{
+    background: url(Pictures/grouppic4.jpg);
+  }
+  100%{
+    background: url(Pictures/grouppic6.jpg);
+  }
+}
